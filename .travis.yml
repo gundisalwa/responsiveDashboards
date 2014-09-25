@@ -6,4 +6,4 @@ before_install:
 	- sudo apt-get install ant
 before_script:
 	- ant resolve
-  - npm install
+	- npm install
