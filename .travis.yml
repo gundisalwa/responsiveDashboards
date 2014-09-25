@@ -1,11 +1,21 @@
 language: node_js
 node_js:
-  - 0.10
+- 0.1
 before_install:
-  - sudo apt-get update -qq
-  - sudo apt-get install ant
+- sudo apt-get update -qq
+- sudo apt-get install ant
 before_script:
-  - ant resolve
-  - npm install
-  - bower install
-  - gulp reveal
+- ant resolve
+- npm install
+- bower install
+- gulp reveal
+script:
+- ant dist
+deploy:
+  provider: releases
+  api_key:
+    secure: bba+ftO+dOZgdPIhDtHPZFBy+f3l7sGQcFVR8Y4m9Zdv1REkP3pMgBqSqjabxuVoX9COfjQv5RSMW7O/sAYXvuDrH1yulBUqhTP3IBBJzk2I4IdYme94szUtiU1KZihgr2xWotr9wpwcM2987IWZg4M0kCMm7Ev9mAy/UCquE9g=
+  file: dist/responsiveDashboards.zip
+  on:
+    repo: gundisalwa/responsiveDashboards
+    branch: release
