@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin title="responsiveDashboards" loader="DEFAULT">
+<overlays>
+		<overlay id="startup.responsiveDashboards" resourcebundle="content/responsiveDashboards/resources/lang/messages">
+			<menubar id="toolsmenu">
+	        	<menuitem id="responsiveDashboards" label="${Launcher.responsiveDashboards}" command="mantleXulHandler.openUrl('${Launcher.responsiveDashboards}','${Launcher.responsiveDashboards_TOOLTIP}','plugin/responsiveDashboards/api/default')"/>
+	      	</menubar>
+	    </overlay>
+	</overlays>
+	<lifecycle-listener class="pt.webdetails.cpk.CpkLifecycleListener"/>
+	<static-paths>
+		<static-path url="/responsiveDashboards/static" localFolder="static"/>
+		<static-path url="/responsiveDashboards/resources" localFolder="resources"/>
+	</static-paths>
+	<content-types>
+		<content-type>
+			<title>ResponsiveDashboards</title>
+			<description></description>
+			<company name="" url="" logo="@PLUGIN_COMPANY_LOGO@"></company>
+		</content-type>
+	</content-types>
+	<content-generator
+		id="responsiveDashboards"
+		title="ResponsiveDashboards"
+		type="responsiveDashboards"
+		class="pt.webdetails.cpk.CpkContentGenerator"/>
+	<!-- Menu entry -->
+	<menu-items>
+		<!--<menu-item id="responsiveDashboards_main" anchor="tools-submenu" label="ResponsiveDashboards" command="content/responsiveDashboards/" type="MENU_ITEM" how="LAST_CHILD"/>-->
+	</menu-items>
+</plugin>
