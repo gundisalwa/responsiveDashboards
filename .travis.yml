@@ -7,3 +7,5 @@ before_install:
 before_script:
   - ant resolve
   - npm install
+  - bower install
+  - gulp reveal
