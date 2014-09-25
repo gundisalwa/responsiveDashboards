@@ -2,9 +2,7 @@
   "name": "evalTool",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "preinstall": "ant resolve"
-  },
+  "scripts": {},
   "keywords": [],
   "dependencies": {},
   "devDependencies": {
