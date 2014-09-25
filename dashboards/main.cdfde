@@ -1,0 +1,1539 @@
+{
+ "layout": {
+  "title": "main",
+  "rows": [
+   {
+    "id": "4cb55a89-624c-6c0a-d132-401137c5d682",
+    "type": "LayoutResourceCode",
+    "typeDesc": "Resource",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "resourceType",
+      "value": "Css",
+      "type": "Label"
+     },
+     {
+      "name": "resourceCode",
+      "value": ".reveal td,\n.reveal th{\n    border-bottom: solid 1px white;   \n} \n.reveal tr{\n    height:80px;\n}\n.reveal td{\n    line-height:80px;\n    vertical-align:middle;\n}\n.reveal td:first-child {\n    font-weight: 800;\n} \n.cols-2 th,\n.cols-2 td {\n    width: 50%;\n}\n\n.cols-3 th,\n.cols-3 td {\n    width: 33%;\n} \n\n.reveal  table {\n    width:100%;\n} ",
+      "type": "Resource"
+     }
+    ]
+   },
+   {
+    "id": "cae85ea0-7333-e5b5-5cb3-04dfcb5875b3",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "slides",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "div",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "5ae2325f-8856-90a1-9a04-9fd75c6807f9",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "cae85ea0-7333-e5b5-5cb3-04dfcb5875b3",
+    "properties": [
+     {
+      "name": "name",
+      "value": "Intro",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "ca293f21-4adf-4919-b659-db1a6db1e428",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "5ae2325f-8856-90a1-9a04-9fd75c6807f9",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h1>Building Responsive CDE Dashboards</h1>\n<h3>Gon&ccedil;alo Neto</h3> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "038c66ee-032b-3cfe-8f20-2c210769fa17",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "cae85ea0-7333-e5b5-5cb3-04dfcb5875b3",
+    "properties": [
+     {
+      "name": "name",
+      "value": "Concepts",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "9a00880f-e19f-bc2e-4e56-bd0e9a25dfbb",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "038c66ee-032b-3cfe-8f20-2c210769fa17",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "53326acc-227e-2185-a003-7f7b9738f7c3",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "9a00880f-e19f-bc2e-4e56-bd0e9a25dfbb",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h1>What does Responsive mean anyway?</h1> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "0b380a80-7da1-43ee-e235-7c059ff7402b",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "038c66ee-032b-3cfe-8f20-2c210769fa17",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "af5a68a6-e1ca-b0b7-f54b-efb0e614fc68",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "0b380a80-7da1-43ee-e235-7c059ff7402b",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>\n    <q>\"Provide an optimal viewing experience across a wide range of devices\"</q>\n</h2> \n<br>\n<h2>\n    <q>\"Having defined layouts for different resolutions\"</q>\n</h2> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "28193995-2fa3-51d1-0479-57a91748e2b9",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "038c66ee-032b-3cfe-8f20-2c210769fa17",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "8c018a67-2910-25a7-a0ba-86f96029f42b",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "28193995-2fa3-51d1-0479-57a91748e2b9",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>Common Terms</h2>\n<br>\n<table class=\"cols-3\">\n    <thead>\n        <tr>\n            <th></th>\n            <th>One Layout -> All Resolutions</th>\n            <th>One Layout -> One Resolution</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>Fixed Width</td>\n            <td>Static</td>\n            <td>Liquid</td>\n        </tr>\n        <tr>\n            <td>Relative Width</td>\n            <td>Adaptive</td>\n            <td>Responsive</td>\n        </tr>\n    </tbody>\n</table> \n<br>\n<a href=\"http://liquidapsive.com/\" target=\"_blank\">http://liquidapsive.com/</a> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "adc74b43-49d7-b073-d529-54bb334a0caa",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "038c66ee-032b-3cfe-8f20-2c210769fa17",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "9ac58eae-7d15-5fbd-d47d-490ecb8d4fcb",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "adc74b43-49d7-b073-d529-54bb334a0caa",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>CAUTION: Don't get sucked by the hype!!</h2>\n<br>\n<p>Responsive pages have actually sort of been around for a long time.</p>\n<p>They do not have to be complex. Use your judgement!</p>\n<br>\n<a href=\"simpleResponsive\" target=\"_blank\">Example</a> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "1e30c3c2-02ec-c601-4e31-6ec6f8d3ebd5",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "cae85ea0-7333-e5b5-5cb3-04dfcb5875b3",
+    "properties": [
+     {
+      "name": "name",
+      "value": "CSS",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "b8c5accf-16f3-4742-5468-e746230e6aca",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "1e30c3c2-02ec-c601-4e31-6ec6f8d3ebd5",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "d68be949-df7a-c445-bf74-edad3eee1c73",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "b8c5accf-16f3-4742-5468-e746230e6aca",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h1>How to achieve this?</h1> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "68b08031-46c1-79df-1a39-e0942b632421",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "1e30c3c2-02ec-c601-4e31-6ec6f8d3ebd5",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "5fd6d272-75ea-ce57-70d7-9bfff4157a73",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "68b08031-46c1-79df-1a39-e0942b632421",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>CSS: Relative Units</h2> \n<p><em>%</em>, <em>em</em>, <em>rem</em>, <em>vw</em>, ... I usually just use percentage, but it's always good to know what's around. </p>\n<p><em>vw/vh</em>, for example, seem interesting but carefull that some of these are CSS3.</p>\n<p> Know more: <a href=\"http://css-tricks.com/the-lengths-of-css/\" target=\"_blank\">CSS units</a> </p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "9ba5dc79-443e-4af7-fb9e-3dc4096c9725",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "1e30c3c2-02ec-c601-4e31-6ec6f8d3ebd5",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "295ae859-c440-5d08-aec0-90b0d3696220",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "9ba5dc79-443e-4af7-fb9e-3dc4096c9725",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>CSS: Media queries (CSS3 only)</h2> \n<p>Conditional CSS based on a media type (screen, print, handheld,...) and media features (width, height, color,...)</p>\n<p>Know more: <a href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries\" target=\"_blank\">Media Queries</a></p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "958b4c8d-461f-4017-bd44-a4a2842711ae",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "1e30c3c2-02ec-c601-4e31-6ec6f8d3ebd5",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "5740ec81-7c34-bda5-c126-ee46e860eecf",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "958b4c8d-461f-4017-bd44-a4a2842711ae",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>Tip: Mixing Up Relative and Absolute</h2> \n\n<pre style=\"box-shadow: none; background: none;\">\n    <code class=\"css\" style=\"height:100%;\">\n        .all {\n            box-sizing: border-box;\n        }\n        .outer-container {\n            padding-right: 100px;\n            position: relative;\n        }\n        .absolute-child {\n            position: absolute;\n        }\n        .relative-child {\n            width: 100%;\n        }\n        \n    </code>\n</pre> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "a33dd419-79fc-579f-6e42-2d70662e8619",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "1e30c3c2-02ec-c601-4e31-6ec6f8d3ebd5",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "0ac476e1-7541-95c6-cab7-ba19aafe7021",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "a33dd419-79fc-579f-6e42-2d70662e8619",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>And possibly some JS</h2>\n<p>But this should be a last resort.</p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "964f1429-2c72-7ad1-8c95-b9b3290521ac",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "1e30c3c2-02ec-c601-4e31-6ec6f8d3ebd5",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "5d7fb821-0592-cda9-cd96-b92dde5fcea0",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "964f1429-2c72-7ad1-8c95-b9b3290521ac",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2><a href=\"samplecss\" target=\"_blank\">Css Demo</a></h2> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "1e249477-4a7e-5523-0c08-dec50effa5bc",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "cae85ea0-7333-e5b5-5cb3-04dfcb5875b3",
+    "properties": [
+     {
+      "name": "name",
+      "value": "Bootstrap",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "b73678a2-d677-65b9-15e5-eb228bfc300b",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "1e249477-4a7e-5523-0c08-dec50effa5bc",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "9de580cc-8d52-6dfb-7082-cdec99ca84f4",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "b73678a2-d677-65b9-15e5-eb228bfc300b",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h1>Enter Bootstrap</h1> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "fa850271-89ab-9779-1a3b-77973887fd7f",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "1e249477-4a7e-5523-0c08-dec50effa5bc",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "fe206af0-5bcb-32bc-76d4-e079bdfa9050",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "fa850271-89ab-9779-1a3b-77973887fd7f",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>Viewport Sizes</h2>\n\n<table class=\"cols-2\">\n    <thead>\n        <tr>\n            <th>Boostrap Size</th><th>Viewport Width</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>xs</td><td>&lt; 768px</td>\n        </tr>\n        <tr>\n            <td>sm</td><td>&ge; 768px </td>\n        </tr>\n        <tr>\n            <td>md</td><td>&ge; 992px </td>\n        </tr>\n        <tr>\n            <td>lg</td><td>&ge; 1200px</td>\n        </tr>\n    </tbody>\n</table> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "4baef534-69cd-360b-a4ab-e0dc6545c0d7",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "1e249477-4a7e-5523-0c08-dec50effa5bc",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "821be773-bbd9-9cc1-2081-43963ee6b1fe",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "4baef534-69cd-360b-a4ab-e0dc6545c0d7",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>Grid</h2>\n\n<ul>\n    <li>12 Columns</li>\n    <li>Relative widths: span-12 = 100% , span-6 = 50% , ...</li>\n    <li>Nested widths (comes from being relative)</li>\n    <li>Always aligned: good for stacking columns</li>\n</ul>\n<br><br>\n<p>Know more: <a href=\"http://getbootstrap.com/css/#grid\" target=\"_blank\">Bootstrap Grid</a></p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "6e2d79b8-4570-8160-b8bc-474eda1023f1",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "1e249477-4a7e-5523-0c08-dec50effa5bc",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "7ca3a9db-3bbb-ae37-547e-2651134015ef",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "6e2d79b8-4570-8160-b8bc-474eda1023f1",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2><a href=\"alignments\" target=\"_blank\">Understanding Alignments</a></h2> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "5f258386-1a4d-76d9-3e8e-36f1b9c23fd3",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "1e249477-4a7e-5523-0c08-dec50effa5bc",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "ea94280b-7a93-41dd-61ea-1207e0f4ed7a",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "5f258386-1a4d-76d9-3e8e-36f1b9c23fd3",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>Helper Classes: Responsive Utilities</h2>\n\n<h4>Hide and Show elements depending on the viewport size.</h4>\n<br><br>\n<ul>\n    <li>visible-<em>size</em>-<em>type</em>: visible-xs-block, visible-sm-inline, visible-lg-inline-block, ...</li>\n    <li>hidden-<em>size</em>: hidden-xs, hidden-sm, ...</li>\n</ul> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "5476dd0b-e5b7-08f8-6e05-15653cf23ba9",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "1e249477-4a7e-5523-0c08-dec50effa5bc",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "75bd2087-e4fb-692c-4d84-18576f9459dd",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "5476dd0b-e5b7-08f8-6e05-15653cf23ba9",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>Boostrap in CDE</h2>\n\n<ul>\n    <li>CDE offers the standard 12 cols Bootstrap Grid</li>\n    <li>Properties for each of the 4 viewport sizes</li>\n    <li>CAVEAT: One extra div is added to the inside of a bootstrap column, to make sure bootstrap column paddins are preserver.</li>\n    <li>class: applies to inner div; bootstrapClass: applies to outer (column) div.</li>\n</ul> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "a6ad2a38-b5b1-fad6-97be-76ee3c7db786",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "1e249477-4a7e-5523-0c08-dec50effa5bc",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "3da9591d-e02e-cc46-0f07-db9c7e4c2c07",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "a6ad2a38-b5b1-fad6-97be-76ee3c7db786",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2><a href=\"sampledash\" target=\"_blank\">CDE Demo</a></h2> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "2df3d3c4-a613-6d3e-c4cc-43c16a003ce4",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "cae85ea0-7333-e5b5-5cb3-04dfcb5875b3",
+    "properties": [
+     {
+      "name": "name",
+      "value": "JS",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "06883afe-ce10-9482-8cb6-f45ed0d9955b",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "2df3d3c4-a613-6d3e-c4cc-43c16a003ce4",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "12c5e0e5-bf00-9db4-e275-6d4d0451382b",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "06883afe-ce10-9482-8cb6-f45ed0d9955b",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h1>What about JS?</h1> \n<br>\n<h3 class=\"fragment\">Lots of things that can be done...</h3> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "760b052c-4a96-de47-feb2-1d6b198f6063",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "2df3d3c4-a613-6d3e-c4cc-43c16a003ce4",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "770a2136-b0a7-4989-0d2a-b76b3036719a",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "760b052c-4a96-de47-feb2-1d6b198f6063",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>Binding to resize events</h2>\n\n<pre>\n    <code class=\"js\">\n        var handler = $(window).on('resize', function (){\n            resizeChart();\n        });\n    </code>\n</pre>\n\n<p>NOTE: Bind only once or store the handlers and unbind.</p>\n\n<pre>\n    <code class=\"js\">\n        $(window).off('resize', handler );\n    </code>\n</pre> \n\n<br>\n\n<p>One example on the <a href=\"http://forums.pentaho.com/showthread.php?161211-Boot-Strap-CSS-Dashboard-Charts-relative-height-and-width-of-charts&p=372770&highlight=#post372770\" target=\"_blank\">Pentaho Forums</a></p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "a61d0682-b393-d183-e9b4-b39e220707bc",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "2df3d3c4-a613-6d3e-c4cc-43c16a003ce4",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "7747ee2e-22af-efb8-e663-035933f6eb25",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "a61d0682-b393-d183-e9b4-b39e220707bc",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>Some performance optimizations for event handlers</h2>\n\n<br>\n<p><em>Debounce</em></p>\n<p>The handler will be run only <code>x ms</code>after the events have stop firing. </p>\n<br>\n<p><em>Throttle</em></p>\n<p>The handler will run with a period of, at least, <code>x ms</code>. </p>\n<br>\n<p>Check <a href=\"http://www.http://underscorejs.org/\" target=\"_blank\">Underscore</a> for helper functions.</p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   }
+  ]
+ },
+ "components": {
+  "rows": []
+ },
+ "datasources": {
+  "rows": [
+   {
+    "id": "SQL",
+    "name": "SQL Queries",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "SQL Queries",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "0a56c773-c21a-33cb-c9aa-716d1c31731a",
+    "type": "Componentssql_sqlJndi",
+    "typeDesc": "sql over sqlJndi",
+    "meta": "CDA",
+    "meta_conntype": "sql.jndi",
+    "meta_datype": "sql",
+    "parent": "SQL",
+    "properties": [
+     {
+      "name": "name",
+      "value": "dummy",
+      "type": "Id"
+     },
+     {
+      "name": "access",
+      "value": "public",
+      "type": "Access"
+     },
+     {
+      "name": "jndi",
+      "value": "",
+      "type": "Jndi"
+     },
+     {
+      "name": "query",
+      "value": "",
+      "type": "SqlQuery"
+     },
+     {
+      "name": "parameters",
+      "value": "[]",
+      "type": "CdaParameters"
+     },
+     {
+      "name": "output",
+      "value": "[]",
+      "type": "IndexArray"
+     },
+     {
+      "name": "outputMode",
+      "value": "include",
+      "type": "OutputMode"
+     },
+     {
+      "name": "cdacolumns",
+      "value": "[]",
+      "type": "CdaColumnsArray"
+     },
+     {
+      "name": "cdacalculatedcolumns",
+      "value": "[]",
+      "type": "CdaCalculatedColumnsArray"
+     },
+     {
+      "name": "cacheDuration",
+      "value": 3600,
+      "type": "Integer"
+     },
+     {
+      "name": "cache",
+      "value": "true",
+      "type": "Boolean"
+     }
+    ]
+   }
+  ]
+ },
+ "filename": "/system/responsiveDashboards/dashboards/main.cdfde"
+}
