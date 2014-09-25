@@ -1,0 +1,22 @@
+{
+  "name": "evalTool",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "preinstall": "ant resolve"
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.5.5",
+    "gulp-bower-files": "^0.2.2",
+    "gulp-concat": "~2.1.7",
+    "gulp-debug": "^0.3.0",
+    "gulp-filter": "~0.3.1",
+    "gulp-load-plugins": "~0.4.0",
+    "gulp-minify-css": "~0.3.0",
+    "gulp-rename": "~1.1.0",
+    "gulp-uglify": "~0.2.1",
+    "gulp-util": "~2.2.14"
+  }
+}

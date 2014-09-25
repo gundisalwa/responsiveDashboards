@@ -1,0 +1,23 @@
+{
+  "name": "responsiveDashboards",
+  "main": [],
+  "version": "0.1.0",
+  "description": "TODO",
+  "authors": [
+    "TODO"
+  ],
+  "ignore": [
+    "**/.*",
+    "package.json",
+    "gulpfile.js",
+    "node_modules",
+    "bower_components",
+    "src",
+    "static",
+    "resources"
+  ],
+  "overrides": {},
+  "dependencies": {
+    "reveal.js": "~2.6.2"
+  }
+}
