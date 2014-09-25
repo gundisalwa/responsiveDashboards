@@ -17,7 +17,7 @@
   <property name="distribution.version" value="${project.stage}-${project.version}"/>
   <echo>distribution.version = ${distribution.version}</echo>
   <property name="plugin.artifact.id" value="${plugin.name}"/>
-  <property name="plugin.zipfile" value="${plugin.artifact.id}-${distribution.version}.zip"/>
+  <property name="plugin.zipfile" value="${plugin.artifact.id}.zip"/>
   <!--=======================================================================
               dist
               Creates a distribution of this project's plugin zip
@@ -31,7 +31,9 @@
     <copy todir="${stage.dir}/${plugin.name}/" overwrite="true">
       <fileset dir=".">
         <include name="**/*"/>
-		  <exclude name="bin/"/>
+		    <exclude name="bin/"/>
+        <exclude name="bower_components"/>
+        <exclude name="node_modules"/>
       </fileset>
     </copy>
     <!-- create the version file -->
@@ -79,7 +81,7 @@
     <!--       &lt;phase&gt;1&lt;/phase&gt; -->
     <!--     &lt;/development_stage&gt; -->
     <!--   &lt;/version&gt;</echo> -->
-    <move tofile="${dist.dir}/${ivy.artifact.id}-${project.revision}.zip" file="${dist.dir}/${plugin.zipfile}"/>
+    <move tofile="${dist.dir}/${ivy.artifact.id}.zip" file="${dist.dir}/${plugin.zipfile}"/>
   </target>
   <!--=======================================================================
               install-plugin
