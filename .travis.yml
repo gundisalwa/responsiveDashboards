@@ -18,5 +18,5 @@ deploy:
   file: dist/responsiveDashboards.zip
   on:
     repo: gundisalwa/responsiveDashboards
-    branch: release
+    all_branches: true
     tags: true
