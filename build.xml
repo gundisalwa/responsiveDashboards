@@ -32,8 +32,8 @@
       <fileset dir=".">
         <include name="**/*"/>
 		    <exclude name="bin/"/>
-        <exclude name="bower_components"/>
-        <exclude name="node_modules"/>
+        <exclude name="**/bower_components/**"/>
+        <exclude name="**/node_modules/**"/>
       </fileset>
     </copy>
     <!-- create the version file -->
