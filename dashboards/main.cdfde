@@ -94,7 +94,7 @@
      },
      {
       "name": "html",
-      "value": "<h1>Building Responsive CDE Dashboards</h1>\n<h3>Gon&ccedil;alo Neto</h3> ",
+      "value": "<h1>Building Responsive CDE Dashboards</h1>\n<h3>Gon&ccedil;alo Neto</h3> \n\n<p>\n    <i>Responsive tutorial and sample presentation</i>\n</p> ",
       "type": "Html"
      },
      {
@@ -366,7 +366,7 @@
      },
      {
       "name": "html",
-      "value": "<h2>CAUTION: Don't get sucked by the hype!!</h2>\n<br>\n<p>Responsive pages have actually sort of been around for a long time.</p>\n<p>They do not have to be complex. Use your judgement!</p>\n<br>\n<a href=\"simpleResponsive\" target=\"_blank\">Example</a> ",
+      "value": "<h2>CAUTION: Don't get sucked by the hype!!</h2>\n<br>\n<p>Responsive pages have actually sort of been around for a long time.</p>\n<p>They do not have to be complex. Use your judgement!</p>\n<br>\n<p>\n    Check the following example. Resize the screen. Responsive layout using\n    technology from 1970\n</p>\n<a href=\"simpleResponsive\" target=\"_blank\">Example</a> ",
       "type": "Html"
      },
      {
@@ -760,7 +760,7 @@
      },
      {
       "name": "html",
-      "value": "<h2><a href=\"samplecss\" target=\"_blank\">Css Demo</a></h2> ",
+      "value": "<h2><a href=\"samplecss\" target=\"_blank\">Css Demo</a></h2> \n\n<p>\n    Check this demo, resize the screen, view the source\n</p>\n ",
       "type": "Html"
      },
      {
@@ -1427,6 +1427,67 @@
      {
       "name": "html",
       "value": "<h2>Some performance optimizations for event handlers</h2>\n\n<br>\n<p><em>Debounce</em></p>\n<p>The handler will be run only <code>x ms</code>after the events have stop firing. </p>\n<br>\n<p><em>Throttle</em></p>\n<p>The handler will run with a period of, at least, <code>x ms</code>. </p>\n<br>\n<p>Check <a href=\"http://www.http://underscorejs.org/\" target=\"_blank\">Underscore</a> for helper functions.</p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "9dc45d86-e816-9b4a-e608-ad3fc415fbfb",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "cae85ea0-7333-e5b5-5cb3-04dfcb5875b3",
+    "properties": [
+     {
+      "name": "name",
+      "value": "end",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "section",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "65a5f988-cc4a-dbcf-2324-f3d9ca85284e",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "9dc45d86-e816-9b4a-e608-ad3fc415fbfb",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h1>Oh, Did you notice...</h1>\n\n<p>\n    that we just built an entire presentation with\n    <a href=\"http://community.pentaho.com/projects/sparkl/\" target=\"_blank\">Sparkl</a>\n    and the \n    <a href=\"http://www.webdetails.pt/ctools/\" target=\"_blank\">Ctools</a>\n    using <a href=\"http://lab.hakim.se/reveal-js\" target=\"_blank\">reveal.js</a>?\n</p>\n\n<p>\n    Feel free to use this plugin as a template for your own presentations, and\n    say good-bye to powerpoint presentations\n</p> ",
       "type": "Html"
      },
      {
